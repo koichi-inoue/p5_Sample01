@@ -1,7 +1,7 @@
 function setup() {
   // CANVASオブジェクトを取得
   var cv = createCanvas(800, 600);
-  // CANVASの親要素として myCanvas を指定
+  // CANVASの親要素として container を指定
   cv.parent("container");
 
   colorMode(RGB);
